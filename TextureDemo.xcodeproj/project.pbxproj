@@ -1,0 +1,682 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		042AF6FE20CFA9EA005ECDBF /* WKOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042AF6FD20CFA9EA005ECDBF /* WKOrderViewController.m */; };
+		042AF70720CFCB67005ECDBF /* WKHeaderCellNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 042AF70620CFCB67005ECDBF /* WKHeaderCellNode.m */; };
+		042AF70B20CFCFAD005ECDBF /* WKStageCellNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 042AF70A20CFCFAD005ECDBF /* WKStageCellNode.m */; };
+		04E24C9C20D34CFA00432416 /* WKAddressNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E24C9B20D34CFA00432416 /* WKAddressNode.m */; };
+		04E24C9F20D355FB00432416 /* WKProductDetailNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E24C9E20D355FB00432416 /* WKProductDetailNode.m */; };
+		04E24CA220D3566800432416 /* WKProductStageNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E24CA120D3566800432416 /* WKProductStageNode.m */; };
+		04E24CA520D367FA00432416 /* WKFunctionNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E24CA420D367FA00432416 /* WKFunctionNode.m */; };
+		04FFB5DA20CF723900B8843E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FFB5D920CF723900B8843E /* AppDelegate.m */; };
+		04FFB5DD20CF723900B8843E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FFB5DC20CF723900B8843E /* ViewController.m */; };
+		04FFB5E020CF723900B8843E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FFB5DE20CF723900B8843E /* Main.storyboard */; };
+		04FFB5E220CF723A00B8843E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04FFB5E120CF723A00B8843E /* Assets.xcassets */; };
+		04FFB5E520CF723A00B8843E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FFB5E320CF723A00B8843E /* LaunchScreen.storyboard */; };
+		04FFB5E820CF723A00B8843E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FFB5E720CF723A00B8843E /* main.m */; };
+		04FFB5F220CF723A00B8843E /* TextureDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FFB5F120CF723A00B8843E /* TextureDemoTests.m */; };
+		04FFB5FD20CF723A00B8843E /* TextureDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FFB5FC20CF723A00B8843E /* TextureDemoUITests.m */; };
+		E249CB3E42482F35EDD9480E /* libPods-TextureDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F27695D2F3EEB5B5F991B38D /* libPods-TextureDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04FFB5EE20CF723A00B8843E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04FFB5CD20CF723800B8843E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04FFB5D420CF723800B8843E;
+			remoteInfo = TextureDemo;
+		};
+		04FFB5F920CF723A00B8843E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04FFB5CD20CF723800B8843E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04FFB5D420CF723800B8843E;
+			remoteInfo = TextureDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		042AF6FC20CFA9EA005ECDBF /* WKOrderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKOrderViewController.h; sourceTree = "<group>"; };
+		042AF6FD20CFA9EA005ECDBF /* WKOrderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKOrderViewController.m; sourceTree = "<group>"; };
+		042AF70520CFCB67005ECDBF /* WKHeaderCellNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKHeaderCellNode.h; sourceTree = "<group>"; };
+		042AF70620CFCB67005ECDBF /* WKHeaderCellNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKHeaderCellNode.m; sourceTree = "<group>"; };
+		042AF70820CFCB89005ECDBF /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		042AF70920CFCFAD005ECDBF /* WKStageCellNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKStageCellNode.h; sourceTree = "<group>"; };
+		042AF70A20CFCFAD005ECDBF /* WKStageCellNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKStageCellNode.m; sourceTree = "<group>"; };
+		04E24C9A20D34CFA00432416 /* WKAddressNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKAddressNode.h; sourceTree = "<group>"; };
+		04E24C9B20D34CFA00432416 /* WKAddressNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKAddressNode.m; sourceTree = "<group>"; };
+		04E24C9D20D355FB00432416 /* WKProductDetailNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKProductDetailNode.h; sourceTree = "<group>"; };
+		04E24C9E20D355FB00432416 /* WKProductDetailNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKProductDetailNode.m; sourceTree = "<group>"; };
+		04E24CA020D3566800432416 /* WKProductStageNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKProductStageNode.h; sourceTree = "<group>"; };
+		04E24CA120D3566800432416 /* WKProductStageNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKProductStageNode.m; sourceTree = "<group>"; };
+		04E24CA320D367FA00432416 /* WKFunctionNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKFunctionNode.h; sourceTree = "<group>"; };
+		04E24CA420D367FA00432416 /* WKFunctionNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKFunctionNode.m; sourceTree = "<group>"; };
+		04FFB5D520CF723800B8843E /* TextureDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextureDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04FFB5D820CF723900B8843E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04FFB5D920CF723900B8843E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04FFB5DB20CF723900B8843E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04FFB5DC20CF723900B8843E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04FFB5DF20CF723900B8843E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04FFB5E120CF723A00B8843E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04FFB5E420CF723A00B8843E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04FFB5E620CF723A00B8843E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04FFB5E720CF723A00B8843E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04FFB5ED20CF723A00B8843E /* TextureDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextureDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04FFB5F120CF723A00B8843E /* TextureDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextureDemoTests.m; sourceTree = "<group>"; };
+		04FFB5F320CF723A00B8843E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04FFB5F820CF723A00B8843E /* TextureDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextureDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04FFB5FC20CF723A00B8843E /* TextureDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextureDemoUITests.m; sourceTree = "<group>"; };
+		04FFB5FE20CF723A00B8843E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		699DAA9A8F41973081F0EC7F /* Pods-TextureDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextureDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TextureDemo/Pods-TextureDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		6A92417E204CD96177F5C7FB /* Pods-TextureDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextureDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-TextureDemo/Pods-TextureDemo.release.xcconfig"; sourceTree = "<group>"; };
+		F27695D2F3EEB5B5F991B38D /* libPods-TextureDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TextureDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04FFB5D220CF723800B8843E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E249CB3E42482F35EDD9480E /* libPods-TextureDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04FFB5EA20CF723A00B8843E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04FFB5F520CF723A00B8843E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		042AF70420CFCB55005ECDBF /* views */ = {
+			isa = PBXGroup;
+			children = (
+				042AF70520CFCB67005ECDBF /* WKHeaderCellNode.h */,
+				042AF70620CFCB67005ECDBF /* WKHeaderCellNode.m */,
+				042AF70920CFCFAD005ECDBF /* WKStageCellNode.h */,
+				042AF70A20CFCFAD005ECDBF /* WKStageCellNode.m */,
+				04E24C9A20D34CFA00432416 /* WKAddressNode.h */,
+				04E24C9B20D34CFA00432416 /* WKAddressNode.m */,
+				04E24C9D20D355FB00432416 /* WKProductDetailNode.h */,
+				04E24C9E20D355FB00432416 /* WKProductDetailNode.m */,
+				04E24CA020D3566800432416 /* WKProductStageNode.h */,
+				04E24CA120D3566800432416 /* WKProductStageNode.m */,
+				04E24CA320D367FA00432416 /* WKFunctionNode.h */,
+				04E24CA420D367FA00432416 /* WKFunctionNode.m */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		04FFB5CC20CF723800B8843E = {
+			isa = PBXGroup;
+			children = (
+				04FFB5D720CF723800B8843E /* TextureDemo */,
+				04FFB5F020CF723A00B8843E /* TextureDemoTests */,
+				04FFB5FB20CF723A00B8843E /* TextureDemoUITests */,
+				04FFB5D620CF723800B8843E /* Products */,
+				D39716506AFDC442BFD518C5 /* Pods */,
+				68A78452129D5D00D738A0DD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04FFB5D620CF723800B8843E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04FFB5D520CF723800B8843E /* TextureDemo.app */,
+				04FFB5ED20CF723A00B8843E /* TextureDemoTests.xctest */,
+				04FFB5F820CF723A00B8843E /* TextureDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04FFB5D720CF723800B8843E /* TextureDemo */ = {
+			isa = PBXGroup;
+			children = (
+				042AF70420CFCB55005ECDBF /* views */,
+				04FFB5D820CF723900B8843E /* AppDelegate.h */,
+				04FFB5D920CF723900B8843E /* AppDelegate.m */,
+				04FFB5DB20CF723900B8843E /* ViewController.h */,
+				04FFB5DC20CF723900B8843E /* ViewController.m */,
+				042AF6FC20CFA9EA005ECDBF /* WKOrderViewController.h */,
+				042AF6FD20CFA9EA005ECDBF /* WKOrderViewController.m */,
+				042AF70820CFCB89005ECDBF /* PrefixHeader.pch */,
+				04FFB5DE20CF723900B8843E /* Main.storyboard */,
+				04FFB5E120CF723A00B8843E /* Assets.xcassets */,
+				04FFB5E320CF723A00B8843E /* LaunchScreen.storyboard */,
+				04FFB5E620CF723A00B8843E /* Info.plist */,
+				04FFB5E720CF723A00B8843E /* main.m */,
+			);
+			path = TextureDemo;
+			sourceTree = "<group>";
+		};
+		04FFB5F020CF723A00B8843E /* TextureDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				04FFB5F120CF723A00B8843E /* TextureDemoTests.m */,
+				04FFB5F320CF723A00B8843E /* Info.plist */,
+			);
+			path = TextureDemoTests;
+			sourceTree = "<group>";
+		};
+		04FFB5FB20CF723A00B8843E /* TextureDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04FFB5FC20CF723A00B8843E /* TextureDemoUITests.m */,
+				04FFB5FE20CF723A00B8843E /* Info.plist */,
+			);
+			path = TextureDemoUITests;
+			sourceTree = "<group>";
+		};
+		68A78452129D5D00D738A0DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F27695D2F3EEB5B5F991B38D /* libPods-TextureDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D39716506AFDC442BFD518C5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				699DAA9A8F41973081F0EC7F /* Pods-TextureDemo.debug.xcconfig */,
+				6A92417E204CD96177F5C7FB /* Pods-TextureDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04FFB5D420CF723800B8843E /* TextureDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04FFB60120CF723A00B8843E /* Build configuration list for PBXNativeTarget "TextureDemo" */;
+			buildPhases = (
+				C3BD49B5235FE17DA0336B3E /* [CP] Check Pods Manifest.lock */,
+				04FFB5D120CF723800B8843E /* Sources */,
+				04FFB5D220CF723800B8843E /* Frameworks */,
+				04FFB5D320CF723800B8843E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextureDemo;
+			productName = TextureDemo;
+			productReference = 04FFB5D520CF723800B8843E /* TextureDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04FFB5EC20CF723A00B8843E /* TextureDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04FFB60420CF723A00B8843E /* Build configuration list for PBXNativeTarget "TextureDemoTests" */;
+			buildPhases = (
+				04FFB5E920CF723A00B8843E /* Sources */,
+				04FFB5EA20CF723A00B8843E /* Frameworks */,
+				04FFB5EB20CF723A00B8843E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04FFB5EF20CF723A00B8843E /* PBXTargetDependency */,
+			);
+			name = TextureDemoTests;
+			productName = TextureDemoTests;
+			productReference = 04FFB5ED20CF723A00B8843E /* TextureDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04FFB5F720CF723A00B8843E /* TextureDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04FFB60720CF723A00B8843E /* Build configuration list for PBXNativeTarget "TextureDemoUITests" */;
+			buildPhases = (
+				04FFB5F420CF723A00B8843E /* Sources */,
+				04FFB5F520CF723A00B8843E /* Frameworks */,
+				04FFB5F620CF723A00B8843E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04FFB5FA20CF723A00B8843E /* PBXTargetDependency */,
+			);
+			name = TextureDemoUITests;
+			productName = TextureDemoUITests;
+			productReference = 04FFB5F820CF723A00B8843E /* TextureDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04FFB5CD20CF723800B8843E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = weikun;
+				TargetAttributes = {
+					04FFB5D420CF723800B8843E = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					04FFB5EC20CF723A00B8843E = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 04FFB5D420CF723800B8843E;
+					};
+					04FFB5F720CF723A00B8843E = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 04FFB5D420CF723800B8843E;
+					};
+				};
+			};
+			buildConfigurationList = 04FFB5D020CF723800B8843E /* Build configuration list for PBXProject "TextureDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04FFB5CC20CF723800B8843E;
+			productRefGroup = 04FFB5D620CF723800B8843E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04FFB5D420CF723800B8843E /* TextureDemo */,
+				04FFB5EC20CF723A00B8843E /* TextureDemoTests */,
+				04FFB5F720CF723A00B8843E /* TextureDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04FFB5D320CF723800B8843E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04FFB5E520CF723A00B8843E /* LaunchScreen.storyboard in Resources */,
+				04FFB5E220CF723A00B8843E /* Assets.xcassets in Resources */,
+				04FFB5E020CF723900B8843E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04FFB5EB20CF723A00B8843E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04FFB5F620CF723A00B8843E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C3BD49B5235FE17DA0336B3E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TextureDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04FFB5D120CF723800B8843E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E24CA220D3566800432416 /* WKProductStageNode.m in Sources */,
+				042AF70B20CFCFAD005ECDBF /* WKStageCellNode.m in Sources */,
+				042AF70720CFCB67005ECDBF /* WKHeaderCellNode.m in Sources */,
+				04E24CA520D367FA00432416 /* WKFunctionNode.m in Sources */,
+				04FFB5DD20CF723900B8843E /* ViewController.m in Sources */,
+				04FFB5E820CF723A00B8843E /* main.m in Sources */,
+				04E24C9F20D355FB00432416 /* WKProductDetailNode.m in Sources */,
+				04E24C9C20D34CFA00432416 /* WKAddressNode.m in Sources */,
+				04FFB5DA20CF723900B8843E /* AppDelegate.m in Sources */,
+				042AF6FE20CFA9EA005ECDBF /* WKOrderViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04FFB5E920CF723A00B8843E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04FFB5F220CF723A00B8843E /* TextureDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04FFB5F420CF723A00B8843E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04FFB5FD20CF723A00B8843E /* TextureDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04FFB5EF20CF723A00B8843E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04FFB5D420CF723800B8843E /* TextureDemo */;
+			targetProxy = 04FFB5EE20CF723A00B8843E /* PBXContainerItemProxy */;
+		};
+		04FFB5FA20CF723A00B8843E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04FFB5D420CF723800B8843E /* TextureDemo */;
+			targetProxy = 04FFB5F920CF723A00B8843E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04FFB5DE20CF723900B8843E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04FFB5DF20CF723900B8843E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04FFB5E320CF723A00B8843E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04FFB5E420CF723A00B8843E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04FFB5FF20CF723A00B8843E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04FFB60020CF723A00B8843E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04FFB60220CF723A00B8843E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 699DAA9A8F41973081F0EC7F /* Pods-TextureDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PREFIX_HEADER = /Users/mac/Desktop/demo/TextureDemo/TextureDemo/PrefixHeader.pch;
+				INFOPLIST_FILE = TextureDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = weaken.TextureDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04FFB60320CF723A00B8843E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A92417E204CD96177F5C7FB /* Pods-TextureDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PREFIX_HEADER = /Users/mac/Desktop/demo/TextureDemo/TextureDemo/PrefixHeader.pch;
+				INFOPLIST_FILE = TextureDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = weaken.TextureDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04FFB60520CF723A00B8843E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TextureDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = weaken.TextureDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextureDemo.app/TextureDemo";
+			};
+			name = Debug;
+		};
+		04FFB60620CF723A00B8843E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TextureDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = weaken.TextureDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextureDemo.app/TextureDemo";
+			};
+			name = Release;
+		};
+		04FFB60820CF723A00B8843E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TextureDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = weaken.TextureDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TextureDemo;
+			};
+			name = Debug;
+		};
+		04FFB60920CF723A00B8843E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TextureDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = weaken.TextureDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TextureDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04FFB5D020CF723800B8843E /* Build configuration list for PBXProject "TextureDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04FFB5FF20CF723A00B8843E /* Debug */,
+				04FFB60020CF723A00B8843E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04FFB60120CF723A00B8843E /* Build configuration list for PBXNativeTarget "TextureDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04FFB60220CF723A00B8843E /* Debug */,
+				04FFB60320CF723A00B8843E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04FFB60420CF723A00B8843E /* Build configuration list for PBXNativeTarget "TextureDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04FFB60520CF723A00B8843E /* Debug */,
+				04FFB60620CF723A00B8843E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04FFB60720CF723A00B8843E /* Build configuration list for PBXNativeTarget "TextureDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04FFB60820CF723A00B8843E /* Debug */,
+				04FFB60920CF723A00B8843E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04FFB5CD20CF723800B8843E /* Project object */;
+}
