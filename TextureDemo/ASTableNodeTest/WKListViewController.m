@@ -7,6 +7,7 @@
 //
 
 #import "WKListViewController.h"
+#import "WKOrderViewController.h"
 #import "WKSampleNode.h"
 
 @interface WKListViewController ()<ASTableDelegate, ASTableDataSource>
@@ -38,6 +39,10 @@
     self.tableNode.frame = self.view.bounds;
 }
 
+- (BOOL)shouldBatchFetchForTableNode:(ASTableNode *)tableNode {
+    return NO;
+}
+
 - (void)tableNode:(ASTableNode *)tableNode willBeginBatchFetchWithContext:(ASBatchContext *)context {
     [context beginBatchFetching];
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
@@ -62,6 +67,12 @@
         cell.textNode.attributedText = [[NSAttributedString alloc] initWithString:self.tableDatas[indexPath.row] attributes:@{NSForegroundColorAttributeName: [UIColor blackColor]}];
         return cell;
     };
+}
+
+- (void)tableNode:(ASTableNode *)tableNode didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    [self presentViewController:[WKOrderViewController new] animated:YES completion:^{
+        
+    }];
 }
 
 

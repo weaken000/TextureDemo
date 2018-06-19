@@ -10,6 +10,7 @@
 
 #import "WKOrderViewController.h"
 #import "WKListViewController.h"
+#import "WKTransitionViewController.h"
 
 @interface ViewController ()
 
@@ -25,7 +26,7 @@
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     [super touchesBegan:touches withEvent:event];
     
-    WKListViewController *next = [WKListViewController new];
+    WKTransitionViewController *next = [WKTransitionViewController new];
     [self presentViewController:next animated:YES completion:nil];
 }
 @end
